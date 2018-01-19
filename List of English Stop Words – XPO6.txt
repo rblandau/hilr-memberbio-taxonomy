@@ -1,0 +1,1230 @@
+  * Zana A.I. <https://zana.com/info/zana-personality.1>
+  * About me <http://xpo6.com/what-I-do>
+  * Contact <http://xpo6.com/contact>
+
+// Explore // Close
+// Menu // Close
+Search for:
+
+
+    Categories
+
+Around the Web
+
+<http://xpo6.com/category/around-the-web/>Domain
+
+<http://xpo6.com/category/domain/>Software Development
+
+<http://xpo6.com/category/development/>Search Techniques
+
+<http://xpo6.com/category/natural-language-processing/search-techniques/>NLP
+
+<http://xpo6.com/category/natural-language-processing/>He.al
+
+<http://xpo6.com/category/projects/he-al/>Projects
+
+<http://xpo6.com/category/projects/>Linked Open Data
+
+<http://xpo6.com/category/natural-language-processing/linked-open-data/>
+
+
+    Tags
+
+.al domains
+
+<http://xpo6.com/tag/al-domains/>pictures
+
+<http://xpo6.com/tag/pictures/>domain hacks
+
+<http://xpo6.com/tag/domain-hacks/>.al domain hacks
+
+<http://xpo6.com/tag/al-domain-hacks/>grails
+
+<http://xpo6.com/tag/grails/>MySQL
+
+<http://xpo6.com/tag/mysql/>.al
+
+<http://xpo6.com/tag/al/>.al domain registration
+
+<http://xpo6.com/tag/al-domain-registration/>domains
+
+<http://xpo6.com/tag/domains/>albanian
+
+<http://xpo6.com/tag/albanian/>domain hack
+
+<http://xpo6.com/tag/domain-hack/>exception handling
+
+<http://xpo6.com/tag/exception-handling/>software features
+
+<http://xpo6.com/tag/software-features/>heal
+
+<http://xpo6.com/tag/heal/>starting tasks
+
+<http://xpo6.com/tag/starting-tasks/>featured
+
+<http://xpo6.com/tag/featured/>filter
+
+<http://xpo6.com/tag/filter/>noise words
+
+<http://xpo6.com/tag/noise-words/>stop words
+
+<http://xpo6.com/tag/stop-words/>canonical
+
+<http://xpo6.com/tag/canonical/>
+
+
+    Archives
+
+December 2017
+
+<http://xpo6.com/2017/12/> November 2017
+
+<http://xpo6.com/2017/11/> October 2017
+
+<http://xpo6.com/2017/10/> March 2017
+
+<http://xpo6.com/2017/03/> February 2017
+
+<http://xpo6.com/2017/02/> October 2016
+
+<http://xpo6.com/2016/10/> August 2016
+
+<http://xpo6.com/2016/08/> April 2016
+
+<http://xpo6.com/2016/04/> February 2016
+
+<http://xpo6.com/2016/02/> November 2015
+
+<http://xpo6.com/2015/11/> September 2015
+
+<http://xpo6.com/2015/09/> August 2015
+
+<http://xpo6.com/2015/08/>
+
+  * Software Development <http://xpo6.com/category/development/>
+  * NLP <http://xpo6.com/category/natural-language-processing/>
+      o Linked Open Data
+        <http://xpo6.com/category/natural-language-processing/linked-open-data/>
+      o Search Techniques
+        <http://xpo6.com/category/natural-language-processing/search-techniques/>
+    //
+
+  * Domain <http://xpo6.com/category/domain/>
+  * Around the Web <http://xpo6.com/category/around-the-web/>
+
+  * Zana A.I. <https://zana.com/info/zana-personality.1>
+  * About me <http://xpo6.com/what-I-do>
+  * Contact <http://xpo6.com/contact>
+
+XPO6 <http://xpo6.com/>
+
+Blog of an enthusiast (AI, NLP, Domaining and Investments)
+
+  * Software Development <http://xpo6.com/category/development/>
+  * NLP <http://xpo6.com/category/natural-language-processing/>
+      o Linked Open Data
+        <http://xpo6.com/category/natural-language-processing/linked-open-data/>
+      o Search Techniques
+        <http://xpo6.com/category/natural-language-processing/search-techniques/>
+  * Domain <http://xpo6.com/category/domain/>
+  * Around the Web <http://xpo6.com/category/around-the-web/>
+
+// Close
+
+  * // Explore <#>
+  * // Menu <#>
+  * // Menu <#>
+
+Search Techniques
+<http://xpo6.com/category/natural-language-processing/search-techniques/>
+
+
+  List of English Stop Words
+
+<http://xpo6.com/author/xpo6/> xpo6 <http://xpo6.com/author/xpo6/> on
+April 14, 2009
+
+*Stop Words* are words which do not contain important significance to be
+used in Search Queries. Usually these words are filtered out from search
+queries because they return vast amount of unnecessary information. A
+better definition is provided below:
+
+“Words that do not appear in the index in a particular database because
+they are either insignificant (i.e., articles, prepositions) or so
+common that the results would be higher than the system can handle (as
+in the case of IUCAT where terms such as United States or Department are
+stop words in keyword searching.) Stop words vary from system to system.
+Also, some systems will merely ignore stop words where use of stop words
+in other systems will result in retrieving zero hits. ”
+
+/http://www.iusb.edu/~libg/instruction/helpguide/handouts/2005Boolean.shtml/
+
+Since I needed to use them in a project (Humboldt Diglital Library and
+Network <http://www.avhumboldt.net/>), I am posting here a list of
+English stop words, and below a PHP array containing these words
+
+Here is a list of english stop words:
+|
+a
+about
+above
+across
+after
+afterwards
+again
+against
+all
+almost
+alone
+along
+already
+also
+although
+always
+am
+among
+amongst
+amoungst
+amount
+an
+and
+another
+any
+anyhow
+anyone
+anything
+anyway
+anywhere
+are
+around
+as
+at
+back
+be
+became
+because
+become
+becomes
+becoming
+been
+before
+beforehand
+behind
+being
+below
+beside
+besides
+between
+beyond
+bill
+both
+bottom
+but
+by
+call
+can
+cannot
+cant
+co
+computer
+con
+could
+couldnt
+cry
+de
+describe
+detail
+do
+done
+down
+due
+during
+each
+eg
+eight
+either
+eleven
+else
+elsewhere
+empty
+enough
+etc
+even
+ever
+every
+everyone
+everything
+everywhere
+except
+few
+fifteen
+fify
+fill
+find
+fire
+first
+five
+for
+former
+formerly
+forty
+found
+four
+from
+front
+full
+further
+get
+give
+go
+had
+has
+hasnt
+have
+he
+hence
+her
+here
+hereafter
+hereby
+herein
+hereupon
+hers
+herse"
+him
+himse"
+his
+how
+however
+hundred
+i
+ie
+if
+in
+inc
+indeed
+interest
+into
+is
+it
+its
+itse"
+keep
+last
+latter
+latterly
+least
+less
+ltd
+made
+many
+may
+me
+meanwhile
+might
+mill
+mine
+more
+moreover
+most
+mostly
+move
+much
+must
+my
+myse"
+name
+namely
+neither
+never
+nevertheless
+next
+nine
+no
+nobody
+none
+noone
+nor
+not
+nothing
+now
+nowhere
+of
+off
+often
+on
+once
+one
+only
+onto
+or
+other
+others
+otherwise
+our
+ours
+ourselves
+out
+over
+own
+part
+per
+perhaps
+please
+put
+rather
+re
+same
+see
+seem
+seemed
+seeming
+seems
+serious
+several
+she
+should
+show
+side
+since
+sincere
+six
+sixty
+so
+some
+somehow
+someone
+something
+sometime
+sometimes
+somewhere
+still
+such
+system
+take
+ten
+than
+that
+the
+their
+them
+themselves
+then
+thence
+there
+thereafter
+thereby
+therefore
+therein
+thereupon
+these
+they
+thick
+thin
+third
+this
+those
+though
+three
+through
+throughout
+thru
+thus
+to
+together
+too
+top
+toward
+towards
+twelve
+twenty
+two
+un
+under
+until
+up
+upon
+us
+very
+via
+was
+we
+well
+were
+what
+whatever
+when
+whence
+whenever
+where
+whereafter
+whereas
+whereby
+wherein
+whereupon
+wherever
+whether
+which
+while
+whither
+who
+whoever
+whole
+whom
+whose
+why
+will
+with
+within
+without
+would
+yet
+you
+your
+yours
+yourself
+yourselves|
+And here is a php array with stop words:
+|$stopwords
+=array("a","about","above","above","across","after","afterwards","again","against","all","almost","alone","along","already","also","although","always","am","among","amongst","amoungst","amount", 
+"an","and","another","any","anyhow","anyone","anything","anyway","anywhere","are","around","as", 
+"at","back","be","became","because","become","becomes","becoming","been","before","beforehand","behind","being","below","beside","besides","between","beyond","bill","both","bottom","but","by","call","can","cannot","cant","co","con","could","couldnt","cry","de","describe","detail","do","done","down","due","during","each","eg","eight","either","eleven","else","elsewhere","empty","enough","etc","even","ever","every","everyone","everything","everywhere","except","few","fifteen","fify","fill","find","fire","first","five","for","former","formerly","forty","found","four","from","front","full","further","get","give","go","had","has","hasnt","have","he","hence","her","here","hereafter","hereby","herein","hereupon","hers","herself","him","himself","his","how","however","hundred","ie","if","in","inc","indeed","interest","into","is","it","its","itself","keep","last","latter","latterly","least","less","ltd","made","many","may","me","meanwhile","might","mill","mine","more","moreover","most","mostly","move","much","must","my","myself","name","namely","neither","never","nevertheless","next","nine","no","nobody","none","noone","nor","not","nothing","now","nowhere","of","off","often","on","once","one","only","onto","or","other","others","otherwise","our","ours","ourselves","out","over","own","part","per","perhaps","please","put","rather","re","same","see","seem","seemed","seeming","seems","serious","several","she","should","show","side","since","sincere","six","sixty","so","some","somehow","someone","something","sometime","sometimes","somewhere","still","such","system","take","ten","than","that","the","their","them","themselves","then","thence","there","thereafter","thereby","therefore","therein","thereupon","these","they","thickv","thin","third","this","those","though","three","through","throughout","thru","thus","to","together","too","top","toward","towards","twelve","twenty","two","un","under","until","up","upon","us","very","via","was","we","well","were","what","whatever","when","whence","whenever","where","whereafter","whereas","whereby","wherein","whereupon","wherever","whether","which","while","whither","who","whoever","whole","whom","whose","why","will","with","within","without","would","yet","you","your","yours","yourself","yourselves","the");|
+
+
+        Updated October 3d, 2009.
+
+This is the stop words list used by MySQL FullText feature
+
+    a’s, able, about, above, according, accordingly, across, actually,
+    after, afterwards, again, against, ain’t, all, allow, allows,
+    almost, alone, along, already, also, although, always, am, among,
+    amongst, an, and, another, any, anybody, anyhow, anyone, anything,
+    anyway, anyways, anywhere, apart, appear, appreciate, appropriate,
+    are, aren’t, around, as, aside, ask, asking, associated, at,
+    available, away, awfully, be, became, because, become, becomes,
+    becoming, been, before, beforehand, behind, being, believe, below,
+    beside, besides, best, better, between, beyond, both, brief, but,
+    by, c’mon, c’s, came, can, can’t, cannot, cant, cause, causes,
+    certain, certainly, changes, clearly, co, com, come, comes,
+    concerning, consequently, consider, considering, contain,
+    containing, contains, corresponding, could, couldn’t, course,
+    currently, definitely, described, despite, did, didn’t, different,
+    do, does, doesn’t, doing, don’t, done, down, downwards, during,
+    each, edu, eg, eight, either, else, elsewhere, enough, entirely,
+    especially, et, etc, even, ever, every, everybody, everyone,
+    everything, everywhere, ex, exactly, example, except, far, few,
+    fifth, first, five, followed, following, follows, for, former,
+    formerly, forth, four, from, further, furthermore, get, gets,
+    getting, given, gives, go, goes, going, gone, got, gotten,
+    greetings, had, hadn’t, happens, hardly, has, hasn’t, have, haven’t,
+    having, he, he’s, hello, help, hence, her, here, here’s, hereafter,
+    hereby, herein, hereupon, hers, herself, hi, him, himself, his,
+    hither, hopefully, how, howbeit, however, i’d, i’ll, i’m, i’ve, ie,
+    if, ignored, immediate, in, inasmuch, inc, indeed, indicate,
+    indicated, indicates, inner, insofar, instead, into, inward, is,
+    isn’t, it, it’d, it’ll, it’s, its, itself, just, keep, keeps, kept,
+    know, knows, known, last, lately, later, latter, latterly, least,
+    less, lest, let, let’s, like, liked, likely, little, look, looking,
+    looks, ltd, mainly, many, may, maybe, me, mean, meanwhile, merely,
+    might, more, moreover, most, mostly, much, must, my, myself, name,
+    namely, nd, near, nearly, necessary, need, needs, neither, never,
+    nevertheless, new, next, nine, no, nobody, non, none, noone, nor,
+    normally, not, nothing, novel, now, nowhere, obviously, of, off,
+    often, oh, ok, okay, old, on, once, one, ones, only, onto, or,
+    other, others, otherwise, ought, our, ours, ourselves, out, outside,
+    over, overall, own, particular, particularly, per, perhaps, placed,
+    please, plus, possible, presumably, probably, provides, que, quite,
+    qv, rather, rd, re, really, reasonably, regarding, regardless,
+    regards, relatively, respectively, right, said, same, saw, say,
+    saying, says, second, secondly, see, seeing, seem, seemed, seeming,
+    seems, seen, self, selves, sensible, sent, serious, seriously,
+    seven, several, shall, she, should, shouldn’t, since, six, so, some,
+    somebody, somehow, someone, something, sometime, sometimes,
+    somewhat, somewhere, soon, sorry, specified, specify, specifying,
+    still, sub, such, sup, sure, t’s, take, taken, tell, tends, th,
+    than, thank, thanks, thanx, that, that’s, thats, the, their, theirs,
+    them, themselves, then, thence, there, there’s, thereafter, thereby,
+    therefore, therein, theres, thereupon, these, they, they’d, they’ll,
+    they’re, they’ve, think, third, this, thorough, thoroughly, those,
+    though, three, through, throughout, thru, thus, to, together, too,
+    took, toward, towards, tried, tries, truly, try, trying, twice, two,
+    un, under, unfortunately, unless, unlikely, until, unto, up, upon,
+    us, use, used, useful, uses, using, usually, value, various, very,
+    via, viz, vs, want, wants, was, wasn’t, way, we, we’d, we’ll, we’re,
+    we’ve, welcome, well, went, were, weren’t, what, what’s, whatever,
+    when, whence, whenever, where, where’s, whereafter, whereas,
+    whereby, wherein, whereupon, wherever, whether, which, while,
+    whither, who, who’s, whoever, whole, whom, whose, why, will,
+    willing, wish, with, within, without, won’t, wonder, would, would,
+    wouldn’t, yes, yet, you, you’d, you’ll, you’re, you’ve, your, yours,
+    yourself, yourselves, zero
+
+
+    CSV Format
+
+    a,able,about,across,after,all,almost,also,am,among,an,and,any,are,as,at,be,because,been,but,by,can,cannot,could,dear,did,do,does,either,else,ever,every,for,from,get,got,had,has,have,he,her,hers,him,his,how,however,i,if,in,into,is,it,its,just,least,let,like,likely,may,me,might,most,must,my,neither,no,nor,not,of,off,often,on,only,or,other,our,own,rather,said,say,says,she,should,since,so,some,than,that,the,their,them,then,there,these,they,this,tis,to,too,twas,us,wants,was,we,were,what,when,where,which,while,who,whom,why,will,with,would,yet,you,your
+
+I have also created another article where you can download stop words
+<http://xpo6.com/download-stop-word-list/> in csv, txt or as a php file.
+
+Update: Elastic Search has an analyzer that allows you to remove stop
+words with ease: See Using Elastic Search Analyzer to remove Stop Words
+from a text
+<http://xpo6.com/using-elasticsearch-analyzer-remove-stop-words-from-text/>
+for some example.
+
+
+      Like this:
+
+Like Loading...
+
+  * Posted in: Search Techniques
+    <http://xpo6.com/category/natural-language-processing/search-techniques/>
+
+  * Tagged in: featured <http://xpo6.com/tag/featured/>, filter
+    <http://xpo6.com/tag/filter/>, noise words
+    <http://xpo6.com/tag/noise-words/>, pictures
+    <http://xpo6.com/tag/pictures/>, stop words
+    <http://xpo6.com/tag/stop-words/>
+
+<http://xpo6.com/author/xpo6/>
+
+
+      Posted by xpo6
+
+Software developer in the realm of AI, NLP and black magic.
+
+// All Posts <http://xpo6.com/author/xpo6/>
+
+
+      /Related/
+
+Download Stop Word List
+<http://xpo6.com/download-stop-word-list/>January 25, 2015In "Software
+Development"
+
+Using Elastic Search Analyzer to remove Stop Words from a text
+<http://xpo6.com/using-elasticsearch-analyzer-remove-stop-words-from-text/>November
+9, 2017In "Around the Web"
+
+How to remove stop words from a document or a bundle of documents
+<http://xpo6.com/how-to-remove-stop-words-from-a-document-or-a-bundle-of-documents/>February
+8, 2017In "Search Techniques"
+
+
+      Share this:
+
+  * Twitter <http://xpo6.com/list-of-english-stop-words/?share=twitter&nb=1>
+  * Google
+    <http://xpo6.com/list-of-english-stop-words/?share=google-plus-1&nb=1>
+*
+
+
+      57 Comments
+
+ 1.
+    Bodyc <http://www.elcocn.com/> April 15, 2009 at 8:49 am
+    <http://xpo6.com/list-of-english-stop-words/#comment-2>
+
+    Greatings,
+    Interesting, I`ll quote it on my site later.
+
+    Thank you
+    Bodyc
+
+ 2.
+    James April 25, 2009 at 2:31 am
+    <http://xpo6.com/list-of-english-stop-words/#comment-3>
+
+    In the list of English stop words (the non-PHP list) the second last
+    one should be “yourself”
+
+ 3.
+    Mandi <http://www.shqiperia.com/> April 25, 2009 at 9:36 am
+    <http://xpo6.com/list-of-english-stop-words/#comment-4>
+
+    Thank you James,
+    I have corrected it.
+    I have noticed someother English-Stop Words.
+    At the moment (April 25th, 2009) I have just published an array of
+    these, later I plan to create a simple database table and add add
+    new ones.
+
+ 4.
+    Matt May 1, 2009 at 5:38 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-5>
+
+    Great list. Thanks! Putting all of the words in an array saved me a
+    lot of time! Just a note: “the” is in the array twice. Once where it
+    should be alphabetically, and then again at the end.
+
+ 5.
+    Eric Schwarzenbach July 14, 2009 at 6:06 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-6>
+
+    This is sort of a peculiar list of stop words, and seems to serve
+    some specialized needs, as opposed to being appropriate for general
+    use. For example “computer” “cry”, “detail”, “system”…
+
+    Btw, something is wrong with the email address parsing on this page.
+    It is rejecting my completely valid email address. I’d have to guess
+    it is because of the . in the name. I’ll try another.
+
+ 6.
+    Code Snippet 3 – Create post slugs « phoenix.heart – portfolio &
+    more
+    <http://www.phoenixheart.net/2009/10/code-snippet-3-create-post-slugs/>
+    October 17, 2009 at 1:20 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-7>
+
+    […] Not bad huh? There are some problems however. First, if the
+    title has continuous spaces, the slug will contains continuous
+    dashes, which is not quite right. Second, much more important, we
+    didn’t take into account a concept called stop words. Long story
+    shot, stop words are words that don’t contain important information
+    and are often filtered out from search queries by search engines. A
+    list of English stop words can be found here. […]
+
+ 7.
+    Fluten <http://curepages.com/> October 22, 2009 at 2:23 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-8>
+
+    Hi there, i didn’t know “for” is a stop word.
+    thx
+
+ 8.
+    Text Analysis of Martha Ballard’s Diary (Part 3) « history-ing
+    <http://historying.org/2009/10/19/text-analysis-of-martha-ballards-diary-part-3/>
+    October 26, 2009 at 4:20 am
+    <http://xpo6.com/list-of-english-stop-words/#comment-9>
+
+    […] mend and mend. as two separate words), put every word into
+    lowercase, and then ignored a list of stop words (the, and, for,
+    etc.). By writing a program to count occurrences of the 500 most
+    common words, I […]
+
+ 9.
+    Philipp December 7, 2009 at 7:45 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-10>
+
+    Hello and thank you for the stopwords. However, there are some
+    errors in the upper list …:
+
+    herse”
+    himse”
+    itse”
+    myse”
+
+10.
+    robertbanh (robert banh)
+    <http://twitter.com/robertbanh/statuses/8194219345> January 25, 2010
+    at 2:52 pm <http://xpo6.com/list-of-english-stop-words/#comment-11>
+
+    @gnutel0 <http://twitter.com/gnutel0> there’s a bunch… it’s called
+    ‘stop words’. http://bit.ly/4vNhpu
+
+11.
+    alokjain (Alok Jain)
+    <http://twitter.com/alokjain/statuses/8544238497> February 2, 2010
+    at 2:31 pm <http://xpo6.com/list-of-english-stop-words/#comment-12>
+
+    Stop words : words to filter from search
+    http://armandbrahaj.blog.al/2009/04/14/list-of-english-stop-words/
+
+12.
+    alokjain <http://twitter.com/alokjain> February 2, 2010 at 2:31 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-14>
+
+    Stop words : words to filter from search
+    http://armandbrahaj.blog.al/2009/04/14/list-of-english-stop-words/
+
+    via uberVU
+    <http://www.ubervu.com/conversations/armandbrahaj.blog.al%2F2009%2F04%2F14%2Flist-of-english-stop-words%2F>
+
+13.
+    aanondo (Ananda Gupta)
+    <http://twitter.com/aanondo/statuses/8549711868> February 2, 2010 at
+    5:03 pm <http://xpo6.com/list-of-english-stop-words/#comment-13>
+
+    RT @alokjain <http://twitter.com/alokjain>: Stop words : words to
+    filter from search
+    http://armandbrahaj.blog.al/2009/04/14/list-of-english-stop-words/
+
+14.
+    List of English Stop words hard coded in the php array « Bonomo's
+    Blog
+    <http://bonomo.wordpress.com/2010/02/23/list-of-english-stop-words-hard-coded-in-the-php-array/>
+    February 23, 2010 at 4:49 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-15>
+
+    […]
+    http://armandbrahaj.blog.al/2009/04/14/list-of-english-stop-words/ […]
+
+15.
+    lamyju <http://twitter.com/lamyju> March 11, 2010 at 4:46 am
+    <http://xpo6.com/list-of-english-stop-words/#comment-16>
+
+    List of English Stop Words (list, PHP Array, MySQL Stop Words)
+    http://bit.ly/chPDjw // Very useful
+
+    via uberVU
+    <http://www.ubervu.com/conversations/armandbrahaj.blog.al%2F2009%2F04%2F14%2Flist-of-english-stop-words%2F>
+
+16.
+    lamyju <http://twitter.com/lamyju> March 11, 2010 at 4:46 am
+    <http://xpo6.com/list-of-english-stop-words/#comment-29>
+
+    List of English Stop Words (list, PHP Array, MySQL Stop Words)
+    http://bit.ly/chPDjw // Very useful
+
+    via uberVU
+    <http://www.ubervu.com/conversations/armandbrahaj.blog.al%2F2009%2F04%2F14%2Flist-of-english-stop-words%2F>
+
+17.
+    Mike Schultz April 20, 2010 at 4:27 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-17>
+
+    Very useful. The ‘computer’ entry seems out of place for a general
+    stop word list. Maybe in a computer centric collection it makes
+    sense, but generally it is a very contentful term.
+
+18.
+    SEO Glossary – Stop Words | DOHERTY/Associates/LTD
+    <http://dohertyassoc.com/2010/05/seo-glossary-stop-words/> May 4,
+    2010 at 4:31 am
+    <http://xpo6.com/list-of-english-stop-words/#comment-18>
+
+    […] List of English Stop Words (list, PHP Array, MySQL Stop Words) […]
+
+19.
+    이대엽 <http://www.google.com/profiles/leedaeyeop> May 19, 2010 at
+    1:38 am <http://xpo6.com/list-of-english-stop-words/#comment-19>
+
+    … Stop words is the name given to words which are filtered out prior
+    to, or after, processing of natural language data…
+    http://en.wikipedia.org/wiki/Stop_words
+    http://armandbrahaj.blog.al/2009/04/14/list-of-english-stop-words/
+
+    via uberVU
+    <http://www.ubervu.com/conversations/armandbrahaj.blog.al%2F2009%2F04%2F14%2Flist-of-english-stop-words%2F>
+
+20.
+    이대엽 <http://www.google.com/profiles/leedaeyeop> May 19, 2010 at
+    1:38 am <http://xpo6.com/list-of-english-stop-words/#comment-28>
+
+    … Stop words is the name given to words which are filtered out prior
+    to, or after, processing of natural language data…
+    http://en.wikipedia.org/wiki/Stop_words
+    http://armandbrahaj.blog.al/2009/04/14/list-of-english-stop-words/
+
+    via uberVU
+    <http://www.ubervu.com/conversations/armandbrahaj.blog.al%2F2009%2F04%2F14%2Flist-of-english-stop-words%2F>
+
+21.
+    Domain Name With Keyword Variation
+    <http://blogfiliates.com/niche-research/359-domain-name-keyword-variation-2.html#post2397>
+    July 23, 2010 at 7:00 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-20>
+
+    […] […]
+
+22.
+    Zend_Search_Lucene Tips | Language Hacker | Robert Elwell's Blog
+    <http://robertelwell.info/blog/zend_search_lucene-tips/> August 18,
+    2010 at 8:30 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-21>
+
+    […] is at least one resource with a ready PHP array of stopwords.
+    Another approach would be to use a static function that returns an
+    array of stopwords, but first […]
+
+23.
+    sedovsek (Robert Sedovšek)
+    <http://twitter.com/sedovsek/statuses/21601315758> August 19, 2010
+    at 7:15 pm <http://xpo6.com/list-of-english-stop-words/#comment-22>
+
+    A list of English stopwords http://bit.ly/4vNhpu Has anyone a list
+    of #slovene stopwords?
+
+24.
+    sedovsek <http://twitter.com/sedovsek> August 19, 2010 at 7:15 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-23>
+
+    A list of English stopwords http://bit.ly/4vNhpu Has anyone a list
+    of #slovene stopwords?
+
+    via uberVU
+    <http://www.ubervu.com/conversations/armandbrahaj.blog.al%2F2009%2F04%2F14%2Flist-of-english-stop-words%2F>
+
+25.
+    sedovsek <http://twitter.com/sedovsek> August 19, 2010 at 7:15 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-27>
+
+    A list of English stopwords http://bit.ly/4vNhpu Has anyone a list
+    of #slovene stopwords?
+
+    via uberVU
+    <http://www.ubervu.com/conversations/armandbrahaj.blog.al%2F2009%2F04%2F14%2Flist-of-english-stop-words%2F>
+
+26.
+    sandeepseo <http://twitter.com/sandeepseo> August 31, 2010 at 10:33
+    am <http://xpo6.com/list-of-english-stop-words/#comment-26>
+
+    Stop Words: http://tinyurl.com/cfc7bc
+
+    via uberVU
+    <http://www.ubervu.com/conversations/armandbrahaj.blog.al%2F2009%2F04%2F14%2Flist-of-english-stop-words%2F>
+
+27.
+    Coffee Bar Junkie:
+    <http://coffeebarjunkie.com/2010/11/when-is-a-stopword-a-stopword/>
+    November 1, 2010 at 11:59 am
+    <http://xpo6.com/list-of-english-stop-words/#comment-24>
+
+    […] In this list below, the word ‘allows’ for example might be all
+    that someone remembers from the film title ‘All That Heaven Allows’
+    which is a film from the 1950s that I haven’t seen – but I have seen
+    the remake under the title ‘Far From Heaven’ and that is a memorable
+    film. Amplify’d from armandbrahaj.blog.al […]
+
+28.
+    Ken November 12, 2010 at 12:56 am
+    <http://xpo6.com/list-of-english-stop-words/#comment-25>
+
+    It’s a helpful list. Thank you!
+
+    FYI: The MySQL list includes “would” twice.
+
+29.
+    Stop List – Stop Tokenizer – Google Patent – "Any technology
+    distinguishable from magic is insufficiently advanced" - Gehm's
+    Corrollary <http://itp.nyu.edu/~db1060/wordpress/?p=475> February
+    18, 2011 at 4:41 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-30>
+
+    […]
+    http://armandbrahaj.blog.al/2009/04/14/list-of-english-stop-words/ […]
+
+30.
+    mihai nitescu <http://www.mihainitescu.info/> March 4, 2011 at 11:27
+    am <http://xpo6.com/list-of-english-stop-words/#comment-31>
+
+    this post was important for me…good job man
+
+31.
+    stopwords 多语言 « 大虾的学习空间
+    <http://blog.fabrichina.net/archives/526> April 11, 2011 at 7:55 am
+    <http://xpo6.com/list-of-english-stop-words/#comment-32>
+
+    […] List of English Stop Words (list, PHP Array, MySQL Stop Words) […]
+
+32.
+    WordLo (Maria Pia Montoro)
+    <http://twitter.com/WordLo/statuses/71152273136422912> May 19, 2011
+    at 9:56 am <http://xpo6.com/list-of-english-stop-words/#comment-34>
+
+    List of English Stop Words
+    http://armandbrahaj.blog.al/2009/04/14/list-of-english-stop-words/
+
+33.
+    WordLo <http://twitter.com/WordLo> May 19, 2011 at 9:56 am
+    <http://xpo6.com/list-of-english-stop-words/#comment-33>
+
+    List of English Stop Words
+    http://armandbrahaj.blog.al/2009/04/14/list-of-english-stop-words/
+
+    via uberVU
+    <http://www.ubervu.com/conversations/armandbrahaj.blog.al%2F2009%2F04%2F14%2Flist-of-english-stop-words%2F>
+
+34.
+    » Foreign Language Help Katie's Blog of AWESOME
+    <http://katieblogs.panciera.net/2009/05/12/foreign-language-help/>
+    August 24, 2011 at 3:43 am
+    <http://xpo6.com/list-of-english-stop-words/#comment-35>
+
+    […] list of stop words. These are words, in English, such as in to a
+    and the that, etc. (Examples in English, German, French) While I can
+    find these for most European languages and have learned of other […]
+
+35.
+    Some Blogging Tips - Fake News Junkies - Fake News Junkies
+    <http://fakenewsjunkies.com/2011/08/some-blogging-tips/> August 29,
+    2011 at 6:37 am
+    <http://xpo6.com/list-of-english-stop-words/#comment-36>
+
+    […] to use as few “stop-words” as possible.  Stop-words are words
+    like: a, an, the, in, by, and so on.  These words will […]
+
+36.
+    noswap <http://noswap.ru/> September 13, 2011 at 7:48 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-37>
+
+    How to collect thos words in russian for example?
+
+37.
+    Search Engine Marketing Basics | Conquering Any Niche Audience
+    Online
+    <http://www.clickbankphilippines.com/2011/09/search-engine-marketing-basics.html>
+    September 17, 2011 at 10:08 am
+    <http://xpo6.com/list-of-english-stop-words/#comment-38>
+
+    […] stop words in the URL slugs, and replace it with keywords found
+    on your content. Here is a list of stop words.Check your Main
+    Keyword PlacementMake sure that the main keywords are found in the
+    headline or post […]
+
+38.
+    Nonprofit Technology and Marketing | Benjamin Phillips
+    <http://benjamindavidphillips.com/benjamin-phillips/2011/09/29/nonprofit-technology-and-marketing/>
+    September 29, 2011 at 9:59 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-39>
+
+    […] words so you don’t end up with n-grams like “jackson the” or
+    “has Michael.” Here’s a list of English stop words and Textalyser
+    has an adequate tool for breaking a block of text into […]
+
+39.
+    Using Social Media to Get Ahead of Search Demand | Best Shopping
+    Deals
+    <http://www.bestshoppingdeals.org/using-social-media-to-get-ahead-of-search-demand-2/>
+    September 30, 2011 at 9:01 am
+    <http://xpo6.com/list-of-english-stop-words/#comment-40>
+
+    […] end up with n-grams like “jackson the” or “has Michael.” Here’s
+    a list of English stop words and Textalyser has an adequate tool for
+    breaking a block of text into […]
+
+40.
+    Using Social Media to Get Ahead of Search Demand | twenty5media.com
+    <http://twenty5media.com/blog/using-social-media-to-get-ahead-of-search-demand>
+    September 30, 2011 at 10:44 am
+    <http://xpo6.com/list-of-english-stop-words/#comment-41>
+
+    […] words so you don’t end up with n-grams like “jackson the” or
+    “has Michael.” Here’s a list of English stop words and Textalyser
+    has an adequate tool for breaking a block of text into […]
+
+41.
+    Mark <http://www.infopeer.com/> November 18, 2011 at 1:49 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-42>
+
+    Excellent COllection…I’m searching the web for Some Search ENgine
+    Optimization and I found your list
+
+42.
+    Tony December 13, 2011 at 5:09 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-43>
+
+    You have ‘above’ in the php list twice – cheers for the list though 🙂
+
+43.
+    Keyword Grouping and Stop Words - Keyword Grouper -
+    KeywordGrouper.com
+    <http://keywordgrouper.com/keyword-grouping-and-stop-words> December
+    18, 2011 at 7:51 am
+    <http://xpo6.com/list-of-english-stop-words/#comment-44>
+
+    […] groups will be cleaner and much more logically organized.  You
+    can find a more definitive list of stop words here. Tags: keyword […]
+
+44.
+    9 Best Practices Title Tag Search Engine Optimization - SEO
+    <http://searchengineland.com/nine-best-practices-for-optimized-title-tags-111979>
+    February 23, 2012 at 6:34 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-45>
+
+    […] Stop words are words that carry little to no keyword value. Your
+    best keywords are, grammatically speaking, nouns and verbs, with
+    adjectives in close support. But function words are your stop words,
+    which consist of: […]
+
+45.
+    Nine Best Practices For Optimized Tags | BUCKET SWING
+    <http://www.bucketswing.net/?p=823> February 24, 2012 at 5:00 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-46>
+
+    […] Stop words are difference that lift small to no keyword value.
+    Your best keywords are, grammatically speaking, nouns and verbs,
+    with adjectives in tighten support. But function words are your stop
+    words, that include of: […]
+
+46.
+    SEO URL stop words « Blog « Nathan Giesbrecht Winnipeg Web Design &
+    Development <http://nathangiesbrecht.com/seo-url-stop-words> April
+    23, 2012 at 7:38 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-47>
+
+    […] list I typically use is from Armand Brahaj’s article on stop
+    words. Perhaps his description of stop words is easier to
+    understand: Stop Words are words which do not […]
+
+47.
+    apartman yönetimi <http://www.detayyonetim.com/> April 29, 2012 at
+    10:14 pm <http://xpo6.com/list-of-english-stop-words/#comment-48>
+
+    Very useful. The comp. entry seems out of place for a general stop
+    word list
+
+48.
+    Raaj May 1, 2012 at 4:56 am
+    <http://xpo6.com/list-of-english-stop-words/#comment-49>
+
+    thaks for giving stop words in csv format……..
+
+49.
+    8 Title Tag Optimization Tips You Should Know | Nickhong SEO &
+    Website Traffic Guide
+    <http://nickhong.com/8-title-tag-optimization-tips-you-should-know/>
+    June 22, 2012 at 9:16 am
+    <http://xpo6.com/list-of-english-stop-words/#comment-50>
+
+    […] keyword, the value keywords are nouns, verbs and adjective, you
+    can see the list of stop words here. Again, don’t make your title
+    tag like a keyword […]
+
+50.
+    Dane <http://danecalderon.net/> August 13, 2012 at 2:50 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-51>
+
+    Exactly what I needed. Thanks!
+
+51.
+    Title Tag Optimization,Title Optimization,Tag Optimization
+    <http://9sms9.com/8-title-tag-optimization-tips> December 29, 2012
+    at 4:09 pm <http://xpo6.com/list-of-english-stop-words/#comment-54>
+
+    […] keyword, the value keywords are nouns, verbs and adjective, you
+    can see the list of stop words here. Again, don’t make your title
+    tag like a keyword dump. Tagged SEO tips • Tag […]
+
+52.
+    web page February 9, 2013 at 10:28 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-55>
+
+53.
+    homepage February 10, 2013 at 12:31 am
+    <http://xpo6.com/list-of-english-stop-words/#comment-56>
+
+54.
+    Apple and Windows operating system <http://answerit.in/> April 11,
+    2013 at 8:18 am
+    <http://xpo6.com/list-of-english-stop-words/#comment-57>
+
+    Excellent list of stop words, I will surely use your techniques in
+    future.
+
+55.
+    Cornel <http://www.linkedin.com/in/cornelandreev> May 10, 2013 at
+    3:28 pm <http://xpo6.com/list-of-english-stop-words/#comment-58>
+
+    Thank you so much.
+
+56.
+    Milad February 14, 2014 at 3:50 pm
+    <http://xpo6.com/list-of-english-stop-words/#comment-60>
+
+    Those are really useful, thank you so much.
+    I used’em in my master thesis.
+
+57.
+    Alisa_ipn July 8, 2014 at 1:04 am
+    <http://xpo6.com/list-of-english-stop-words/#comment-61>
+
+    Thanks! A very useful resource!
+
+Comments are closed.
+
+Search for:
+
+// Search
+
+
+    Recent Posts
+
+  * Review LiteBit.eu – Do not use them!
+    <http://xpo6.com/review-litebit-eu/>
+  * Health Digital Platforms attract direct access as much as health
+    queries in search engines
+    <http://xpo6.com/more-and-more-people-are-turning-to-a-variety-of-digital-platforms-to-understand-their-health/>
+
+  * Using Elastic Search Analyzer to remove Stop Words from a text
+    <http://xpo6.com/using-elasticsearch-analyzer-remove-stop-words-from-text/>
+
+  * Zana A.I – A solution that helps you get and stay healthy
+    <http://xpo6.com/zana-a-i-a-solution-that-helps-you-get-and-stay-healthy/>
+
+  * Advices on being a competitive professional
+    <http://xpo6.com/advices-on-being-a-competitive-professional/>
+
+
+    Recent Comments
+
+  * Varun kumar on Value of LLLL CN Domains
+    <http://xpo6.com/the-value-of-llll-cn-domains/#comment-390>
+  * Mandi <http://www.shqiperia.com/> on ZF2 – Sharing and reusing DB
+    connection for dummies
+    <http://xpo6.com/zf2-sharing-db-connection/#comment-107>
+  * ChevignoN on ZF2 – Sharing and reusing DB connection for dummies
+    <http://xpo6.com/zf2-sharing-db-connection/#comment-106>
+  * Alisa_ipn on List of English Stop Words
+    <http://xpo6.com/list-of-english-stop-words/#comment-61>
+  * Mandi <http://www.shqiperia.com/> on ZF2 – Sharing and reusing DB
+    connection for dummies
+    <http://xpo6.com/zf2-sharing-db-connection/#comment-105>
+
+
+    Categories
+
+  * Around the Web <http://xpo6.com/category/around-the-web/>
+  * Domain <http://xpo6.com/category/domain/>
+  * He.al <http://xpo6.com/category/projects/he-al/>
+  * Linked Open Data
+    <http://xpo6.com/category/natural-language-processing/linked-open-data/>
+
+  * NLP <http://xpo6.com/category/natural-language-processing/>
+  * Projects <http://xpo6.com/category/projects/>
+  * Search Techniques
+    <http://xpo6.com/category/natural-language-processing/search-techniques/>
+
+  * Software Development <http://xpo6.com/category/development/>
+
+
+    Blog Stats
+
+  * 145,577 hits
+
+NextImplementing a Canonical URL with Zend Framework
+<http://xpo6.com/implementing-a-canonical-url-with-zend-framework/>
+April 22, 2009
+
+
+    About Me
+
+I am a Software Engineer that has also contributed in the startup of a
+few initiatives.
+I write about my interests: Information Technology and its application
+in: eParticipation, Scientific Research and new ventures… Easily
+distracted and inspired by Cultural and Linguistic projects.
+
+
+    Projects I am involved
+
+  * Zana AI <https://zana.com/>
+  * .al Registrar <https://www.host.al/>
+  * Shqiperia <http://www.shqiperia.com/>
+  * Real Estate Albania <http://realestate.al/>
+
+
+    Subscribe to Blog via Email
+
+Enter your email address to subscribe to this blog and receive
+notifications of new posts by email.
+
+Join 4,403 other subscribers
+
+Email Address
+
+© 2018 Paperback Theme by Array <https://arraythemes.com/>.
+%d bloggers like this:
+
+:)

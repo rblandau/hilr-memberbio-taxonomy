@@ -1,0 +1,20 @@
+Possible changes in taxon spreadsheet:
+
+- remove program and anything like it from Computer Science, oops; ambiguous
+- remove studies from Curriculum; ambiguous
+- remove manage from Business; ambiguous
+- remove teach from Curriculum; ambiguous.  maybe keep teacher and taught
+- add memoir to writing
+- add category for Psychology separate from Medicine
+- doctor from doctorate maps to Medicine, oops; ambiguous
+- add m.d to Medicine
+- might put cognitive under Technology and Psychology
+- add hiking to Sports
+- remove Literature from France
+- law maps to Government and Social Justice; seems over-broad
+- remove protest from Religion; move to Social Justice
+- add journalism to Writing
+- add environment to Ecology
+- remove oil from Art; ambiguous
+- add history to History
+- move financial from Government to Economics
