@@ -1,0 +1,6 @@
+# interesting commands
+python taxit_03.py all757membersACTIVE\ edited\ RR.csv |tee all528membersACTIVE_withTaxTerms_20180118.csv
+cat all528membersACTIVE_withTaxTerms_20180118.csv |awk BEGIN{'FS=","}; {split($NF,cats,"|"); print length(cats)}'>ncats.txt
+python showstems.py  all757membersACTIVE\ edited\ RR.csv > stemlisting.txt
+
+

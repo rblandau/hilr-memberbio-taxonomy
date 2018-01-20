@@ -144,7 +144,9 @@ def fnsSanitize(mysInput):
 @ntrace
 def fnvDumpWords(mydWords):
     ''' Dump resulting stem-to-word-list dictionary in readable form. '''
-    print("\n\n====== FINAL DICT ======")
+#    print("\n\n====== FINAL DICT ======")
+    print("%4s %-25s%-20s%-10s%s" 
+        % ('nOcc', 'Word', 'Stem', 'Suffix', 'Stem!=Root'))
     for sWord, (nOcc, sRoot, sStem, sCrop) in sorted(mydWords.items()):
         sFlag = "" if sRoot == sStem else "*"
         print("%4d %-25s%-20s%-10s%s" % (nOcc, sWord, sStem, sCrop, sFlag))
