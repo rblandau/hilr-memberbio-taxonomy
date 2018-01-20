@@ -1,0 +1,29 @@
+Art	paint painter sculpter sculptur sculptor draw drawn sketch art etching pictorial watercolor watercolorist camera									
+Biological%20Science	botany bioscience biology biological animal genetics DNA genes cancer evolution evolutionary Darwin vertibrate inveritibrate microbiology microorganisms zoology ocean oceanographic									
+Business	business entrepreneur mergers marketing CEO CFO 									
+Civil%20Rights%20&%20Social%20Justice	ACLU poverty anti-poverty wealth inequality court courthouse courtroom segregration desegration black hispanic disadvantaged disabled disabilities humanitarian incarcerated journalist African-American of-color FBI homeless justice									
+Climate%20Change%20&%20Ecology	cumulus  grid fracking gas car transportation desalination gasoline climate ecology ecologist environment									
+Computer%20science	Fortran computer  computer computation calculation computer-aided  email informatics  Windows Macintosh iPad iPhone microcomputers digital									
+Economics	bank banker bankruptcy industrial industry investment investor socioeconomics economist economics economic antitrust tax financial									
+Film	Film movies cinema 									
+French	French France franco 									
+German	German Germany germanic									
+Government%20&%20Politics	Politics political congress law constitution policy democratic democratization republic Fed finance government governmental governor Washington law lawyer law-related  FBI 									
+HILR%20Curriculum	seminar study-group instructor curriculum 									
+History	English European USA US Irish fascism Vietnam Vietnamese Greek Hispanic Cuba Cuban Cancun War Korea revolution ancient history									
+Italian	Italian									
+Literature	literature novel story Shakespeare shakespearean Proust poet poetry victorian French Spanish Spain Hispanic English									
+Medicine	anesthesia anesthetic anti-depressants medicine medication MD endocrine endodonic endodontist hemphilia hemorrhagic infection infectious infertility infirmity neural neurology neurologist neuroscientist oncology oncologist ophthalmic ophthalmology optometry optometric pathology pathologist pediatrics pediatrician pharmaceutical pharmacology physician radiology radiologist toxicology physiology health healthcare health drug MD									
+Music	cello cellist violin piano Beethoven Bach quartets sonata orchestra choir corale clarinetist concert harp harpsichord flute clarinet trumpet singing singer zydeco lyric-coloratura rock-and guitar ukulele music									
+Philosophy	philosophy philosophers religious									
+Photography	photo photograph photography									
+Physical%20Science	astronomy astronaut aerospace physic physicist chemistry science genetics DNA gene chemical cryogenics electro electro-optics georogy mathematics math gyroscope mathematician microwave planetarium space spacecraft statistics statistician telescope philology									
+Psychology	psychiatric psychiatry psychiatrist psychoanalyst psychological psychologist psychotherapist cognitive									
+Religion	atheist atheism Catholic Jewish Zen Buddhist Buddhism Muslim Jewish-American Christian Islam Islamistd church religion									
+Social%20Science	anthropology cognitive community communication human socioeconomic sociology sociologist archaeology archaeologist linguistics 									
+Spanish	Yucatan Spanish Spain Hispanic									
+Sports	cross-country ski tennis baseball football soccer basketball hockey running Olympics bicycling cycling kayaking sports hiking biking									
+Technology	aeronaut engineer electrical electronic transistor computer rocket technology engineering									
+Theatre	Theatre theater actor act stage performance coreographer									
+Travel	Asia Pacific Mountain Europe France Germany England Galopagos China Japan Cuba Spain Mexico Brazil Chile Tuscany turkey tunisia tunis Italy Holland Ireland Irish Africa travel Italy Rome Venice Florence Milan Paris									
+Writing	write writer written memoir journalism									
